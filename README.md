@@ -135,9 +135,10 @@ class Reparation:
 # Exemple d'utilisation
 citadine = Citadin("AA-BB-ZZ")
 camionnette = Camionnete("CC-DD-EE")
-```
+
 r1 = Reparation(citadine, Operation.VIDANGE)
 r2 = Reparation(camionnette, Operation.CH_PNEU)
 
 r1.executer()
 r2.executer()
+```
